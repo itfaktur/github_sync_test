@@ -1,5 +1,9 @@
 phraseapp:
+  project_id: d10b0a5ae7d93540edd02013169e3c80
   push:
     sources:
       -
         file: test.yml
+      -
+        file: secret.yml
+        project_id: invalid-project-id
