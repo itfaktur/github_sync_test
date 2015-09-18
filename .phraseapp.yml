@@ -3,6 +3,4 @@ phraseapp:
   push:
     sources:
       -
-        file: test.yml
-      -
-        file: secret.yml
+        file: ./config/locales/<locale_name>.yml
