@@ -6,4 +6,3 @@ phraseapp:
         file: test.yml
       -
         file: secret.yml
-        project_id: invalid-project-id
