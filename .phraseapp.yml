@@ -3,13 +3,15 @@ phraseapp:
   file_format: "json"
   push:
     sources:
-    - file: "apps/common/i18n/dicts/<locale_code>.json"
+    -
+      file: "apps/common/i18n/dicts/<locale_code>.json"
       params:
         file_format: "json"
         update_translations: true
   pull:
     targets:
-    - file: "apps/common/i18n/dicts/<locale_code>.json"
+    -
+      file: "apps/common/i18n/dicts/<locale_code>.json"
       params:
         file_format: "json"
         update_translations: true
