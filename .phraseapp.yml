@@ -1,14 +1,15 @@
 phraseapp:
-  project_id: c714e12227898963b1c2a0b2a9dc35bc
+  project_id: "d1c1a23c27eaf103ce42361a767d7ce2"
+  file_format: "json"
   push:
     sources:
-      -
-        file: ./config/locales/<locale_name>.yml
-        params:
-          file_format: yml
+    - file: "apps/common/i18n/dicts/<locale_code>.json"
+      params:
+        file_format: "json"
+        update_translations: true
   pull:
     targets:
-      -
-        file: ./config/locales/<locale_name>.yml
-        params:
-          file_format: yml
+    - file: "apps/common/i18n/dicts/<locale_code>.json"
+      params:
+        file_format: "json"
+        update_translations: true
