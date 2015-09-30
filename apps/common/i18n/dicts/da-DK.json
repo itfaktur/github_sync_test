@@ -3,6 +3,7 @@
     "description" : "foo på"
   },
   "common" : {
-    "search" : "bar"
+    "search" : "bar",
+    "gh_test1": "test 1"
   }
 }
