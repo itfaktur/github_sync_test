@@ -1,5 +1,5 @@
 phraseapp:
-  access_token: "6106dca8b95c1d8b03448320e372a1f1c46d166af400632cd1a6db67dfde83f1"
+  # access_token:
   project_id: "5c84a0232c3f55de233855a055336395"
   file_format: "angular_translate"
   push:
@@ -12,4 +12,3 @@ phraseapp:
     - file: "./apps/landing-new/i18n/data/landing-<locale_name>.json"
       params:
         file_format: "angular_translate"
-
